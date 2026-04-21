@@ -8,14 +8,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
+    background-color: black;
     font-family: Arial, sans-serif;
+}
+.navbar-centre:hover {
+background-color: slategray;
 }
 
 .nav-centre {
     display: flex;
     gap: 10px;
     margin-left: 750px;
+    font-size: 40%;
 }
 
 .nav-btn {
@@ -24,8 +28,12 @@
     background: black;
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     
+}
+
+.nav-btn:hover {
+    background-color: #797373;
 }
 
 .nav-btn.active {
@@ -37,7 +45,11 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-right: 80px;
+    
 }
+
+
 
 .gallery-btn {
     padding: 8px 18px;
@@ -48,6 +60,10 @@
     font-size: 14px;
 }
 
+.gallery-btn:hover {
+    background-color: #797373;
+}
+
 .icons {
     display: flex;
     gap: 12px;
@@ -56,4 +72,11 @@
 .icon {
     font-size: 16px;
     cursor: pointer;
+    font-size: 20px;
+    color: #e6e6e6;
+    background-color: black;
+    padding: 10%;
+}
+.icon:hover {
+    background: #797373;
 }
