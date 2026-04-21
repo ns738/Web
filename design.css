@@ -2,15 +2,7 @@
     width:5%;
     height: 10%;
 }
-.navbar {
-    width: 100%;
-    padding: 15px 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: white;
-    font-family: Arial, sans-serif;
-}
+
 
 .nav-center {
     display: flex;
