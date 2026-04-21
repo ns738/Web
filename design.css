@@ -2,3 +2,56 @@
     width:5%;
     height: 10%;
 }
+.navbar {
+    width: 100%;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.nav-center {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-btn.active {
+    background: #d9d9d9;
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery-btn {
+    padding: 8px 18px;
+    background: #e6e6e6;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    gap: 12px;
+}
+
+.icon {
+    font-size: 16px;
+    cursor: pointer;
+}
