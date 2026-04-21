@@ -2,6 +2,10 @@
     width:5%;
     height: 10%;
 }
+.nav-logo {
+height: 6%;
+width: 4%;
+}
 .navbar {
     width: 100%;
     padding: 15px 25px;
@@ -10,6 +14,7 @@
     justify-content: space-between;
     background-color: black;
     font-family: Arial, sans-serif;
+    
 }
 .navbar-centre:hover {
 background-color: slategray;
@@ -17,7 +22,7 @@ background-color: slategray;
 
 .nav-centre {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     margin-left: 750px;
     font-size: 40%;
 }
@@ -79,4 +84,12 @@ background-color: slategray;
 }
 .icon:hover {
     background: #797373;
+}
+
+h1, h2, h3 {
+    max-width: 500px;
+}
+
+#flag1 {
+    margin-left: 850px;
 }
