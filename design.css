@@ -2,10 +2,12 @@
     width:5%;
     height: 10%;
 }
+
 .nav-logo {
 height: 6%;
 width: 4%;
 }
+
 .navbar {
     width: 100%;
     padding: 15px 25px;
@@ -16,6 +18,7 @@ width: 4%;
     font-family: Arial, sans-serif;
     
 }
+
 .navbar-centre:hover {
 background-color: slategray;
 }
@@ -54,8 +57,6 @@ background-color: slategray;
     
 }
 
-
-
 .gallery-btn {
     padding: 8px 18px;
     background: #e6e6e6;
@@ -90,6 +91,25 @@ h1, h2, h3 {
     max-width: 500px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 #flag1 {
-    margin-left: 850px;
+    width: 1000px; 
+    height: auto;
+    margin: 0;    
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    margin-left: 800px;
+    background-color: black;
+    color: darkgrey;
 }
